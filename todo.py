@@ -1,3 +1,4 @@
+# 命令行待办工具 v1.0
 import sys
 import os
 FILE="todo.txt"
