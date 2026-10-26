@@ -17,6 +17,8 @@ def list_tasks():
     for i,line in enumerate(lines,start=1):
         print(f"{i}. {line.strip()}")
 
+    print(f"共 {len(lines)} 条任务")
+
 def remove_task(index):
     if not os.path.exists(FILE):
         print("没有任务")
